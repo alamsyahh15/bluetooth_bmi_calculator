@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Bluetooth BMI',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
@@ -204,6 +204,17 @@ class _ReadDataState extends State<ReadData> {
             Text(
               "Obesity: $obesityDegree",
               style: Theme.of(context).textTheme.headlineMedium,
+            ),
+            const SizedBox(height: 16.0),
+            ElevatedButton(
+              onPressed: () {
+                _weighFromScale = 0.0;
+                bmiResult = 0.0;
+                obesityDegree = "";
+                setState(() {});
+                _startScanning();
+              },
+              child: const Text("Reset"),
             ),
           ],
         ),
