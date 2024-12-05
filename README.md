@@ -33,28 +33,20 @@ samples, guidance on mobile development, and a full API reference.
 
 Using the BMI-based estimation formula for men:
 
-\[
 {Body Fat Percentage} = (1.20 \times {BMI}) + (0.23 \times {Age}) - 16.2
-\]
 
 Substituting the values:
 
-\[
 {Body Fat Percentage} = (1.20 \times 19.7) + (0.23 \times 23) - 16.2
-\]
-\[
+
 {Body Fat Percentage} = 23.64 + 5.29 - 16.2 = 12.73\%
-\]
 
 - **Body Fat Percentage**: **12.73%**
 - **Body Fat Mass**:
 
-\[
 {Body Fat Mass} = \frac{{Body Fat Percentage}}{100} \times {Weight}
-\]
-\[
+
 {Body Fat Mass} = \frac{12.73}{100} \times 57 = 7.25 { kg}
-\]
 
 ---
 
@@ -64,12 +56,9 @@ Estimated at 42% of total body weight:
 
 - **Skeletal Muscle Mass**:
 
-\[
 {Skeletal Muscle Mass} = \frac{42}{100} \times {Weight}
-\]
-\[
+
 {Skeletal Muscle Mass} = \frac{42}{100} \times 57 = 23.94 { kg}
-\]
 
 - **Skeletal Muscle Percentage**: **42%**
 
@@ -81,12 +70,9 @@ Estimated at 45% of total body weight:
 
 - **Total Muscle Mass**:
 
-\[
 {Total Muscle Mass} = \frac{45}{100} \times {Weight}
-\]
-\[
+
 {Total Muscle Mass} = \frac{45}{100} \times 57 = 25.65 { kg}
-\]
 
 - **Total Muscle Percentage**: **45%**
 
@@ -98,12 +84,9 @@ Estimated at 60% of total body weight:
 
 - **Water Mass**:
 
-\[
 {Water Mass} = \frac{60}{100} \times {Weight}
-\]
-\[
+
 {Water Mass} = \frac{60}{100} \times 57 = 34.2 { kg}
-\]
 
 - **Water Percentage**: **60%**
 
@@ -115,12 +98,9 @@ Estimated at 4% of total body weight:
 
 - **Bone Mass**:
 
-\[
 {Bone Mass} = \frac{4}{100} \times {Weight}
-\]
-\[
+
 {Bone Mass} = \frac{4}{100} \times 57 = 2.28 { kg}
-\]
 
 - **Bone Mass**: **2.28 kg**
 
