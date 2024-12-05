@@ -34,26 +34,26 @@ samples, guidance on mobile development, and a full API reference.
 Using the BMI-based estimation formula for men:
 
 \[
-\text{Body Fat Percentage} = (1.20 \times \text{BMI}) + (0.23 \times \text{Age}) - 16.2
+{Body Fat Percentage} = (1.20 \times {BMI}) + (0.23 \times {Age}) - 16.2
 \]
 
 Substituting the values:
 
 \[
-\text{Body Fat Percentage} = (1.20 \times 19.7) + (0.23 \times 23) - 16.2
+{Body Fat Percentage} = (1.20 \times 19.7) + (0.23 \times 23) - 16.2
 \]
 \[
-\text{Body Fat Percentage} = 23.64 + 5.29 - 16.2 = 12.73\%
+{Body Fat Percentage} = 23.64 + 5.29 - 16.2 = 12.73\%
 \]
 
 - **Body Fat Percentage**: **12.73%**
 - **Body Fat Mass**:
 
 \[
-\text{Body Fat Mass} = \frac{\text{Body Fat Percentage}}{100} \times \text{Weight}
+{Body Fat Mass} = \frac{{Body Fat Percentage}}{100} \times {Weight}
 \]
 \[
-\text{Body Fat Mass} = \frac{12.73}{100} \times 57 = 7.25 \text{ kg}
+{Body Fat Mass} = \frac{12.73}{100} \times 57 = 7.25 { kg}
 \]
 
 ---
@@ -65,10 +65,10 @@ Estimated at 42% of total body weight:
 - **Skeletal Muscle Mass**:
 
 \[
-\text{Skeletal Muscle Mass} = \frac{42}{100} \times \text{Weight}
+{Skeletal Muscle Mass} = \frac{42}{100} \times {Weight}
 \]
 \[
-\text{Skeletal Muscle Mass} = \frac{42}{100} \times 57 = 23.94 \text{ kg}
+{Skeletal Muscle Mass} = \frac{42}{100} \times 57 = 23.94 { kg}
 \]
 
 - **Skeletal Muscle Percentage**: **42%**
@@ -82,10 +82,10 @@ Estimated at 45% of total body weight:
 - **Total Muscle Mass**:
 
 \[
-\text{Total Muscle Mass} = \frac{45}{100} \times \text{Weight}
+{Total Muscle Mass} = \frac{45}{100} \times {Weight}
 \]
 \[
-\text{Total Muscle Mass} = \frac{45}{100} \times 57 = 25.65 \text{ kg}
+{Total Muscle Mass} = \frac{45}{100} \times 57 = 25.65 { kg}
 \]
 
 - **Total Muscle Percentage**: **45%**
@@ -99,10 +99,10 @@ Estimated at 60% of total body weight:
 - **Water Mass**:
 
 \[
-\text{Water Mass} = \frac{60}{100} \times \text{Weight}
+{Water Mass} = \frac{60}{100} \times {Weight}
 \]
 \[
-\text{Water Mass} = \frac{60}{100} \times 57 = 34.2 \text{ kg}
+{Water Mass} = \frac{60}{100} \times 57 = 34.2 { kg}
 \]
 
 - **Water Percentage**: **60%**
@@ -116,10 +116,10 @@ Estimated at 4% of total body weight:
 - **Bone Mass**:
 
 \[
-\text{Bone Mass} = \frac{4}{100} \times \text{Weight}
+{Bone Mass} = \frac{4}{100} \times {Weight}
 \]
 \[
-\text{Bone Mass} = \frac{4}{100} \times 57 = 2.28 \text{ kg}
+{Bone Mass} = \frac{4}{100} \times 57 = 2.28 { kg}
 \]
 
 - **Bone Mass**: **2.28 kg**
