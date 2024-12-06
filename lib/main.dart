@@ -35,7 +35,7 @@ class ReadData extends StatefulWidget {
 class _ReadDataState extends State<ReadData> {
   //flutter blue plus instance
 
-  //BLE scale mac Address first 3 fixed hex
+  //BLE scale mac Address prefix 3digits fixed hex from manufacturer
   final String _weightScaleId = '3D:0A:55';
   List hexList = [];
 
